@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+td>a {
+    color: black;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px black solid;
+    padding: 5px;
+}
+
+th {
+    padding: 10px;
+    background-color: #AD9C65;
+}
+
+tr:nth-child(odd){
+    background-color: #DACCE6;
+}
+
+tr:nth-child(even){
+    background-color: #B599CE;
+}
