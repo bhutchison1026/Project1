@@ -7,6 +7,10 @@ html {
     margin: -10px;
 }
 
+body {
+    margin: 0px;
+}
+
 a {
     color: white;
 }
@@ -16,14 +20,16 @@ header {
     background-color:#450084;
     width: 100%;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    
+    font-size: 10px;
+    flex-direction: column;
 }
     
 h1 {
     color: #fff;
     font-family: Arvo;
-    font-size: 32px;
+    font-size: 3em;
     align-content: center;
     text-align: center;
 }
@@ -32,16 +38,22 @@ h1 {
     display: flex;
     list-style: none;
     gap: 20px;
-    
 }
 
 .navigation>nav>ul>li {
     display: flex;
-    color: #fff;  
+    color: #fff;
+    font-size: 2em;  
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
 }
 
 .title>img {
     margin: 20px;
+    width: 45vw;
 }
 
 @media screen and (max-width: 700px) {
@@ -50,9 +62,7 @@ h1 {
         align-items: center;
         padding-left: 0px;
     }
-    .navigation>nav>ul>li {
-        font-size: larger;
-    }
+
     .title {
         display: flex;
         flex-direction: column;
