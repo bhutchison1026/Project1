@@ -1,0 +1,9 @@
+form {
+    padding: 0px 20px 20px 20px;
+}
+.alcohol > ul > li > ul > li:last-of-type(){
+    padding-bottom: 50px;
+}
+section {
+    padding: 20px;
+}
