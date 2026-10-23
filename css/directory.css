@@ -1,4 +1,4 @@
-main {
+main > div{
     display: flex;
     justify-content: center;
 }
@@ -10,7 +10,7 @@ td>a {
 table {
     width: 80%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 table, th, td {
@@ -29,4 +29,9 @@ tr:nth-child(odd){
 
 tr:nth-child(even){
     background-color: #B599CE;
+}
+
+main > p {
+    text-align: center;
+    margin-bottom: 20px;
 }
