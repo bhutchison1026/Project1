@@ -11,6 +11,7 @@ table {
     width: 80%;
     border-collapse: collapse;
     margin: 20px 0px;
+    margin-bottom: 120px;
 }
 
 table, th, td {
@@ -34,4 +35,12 @@ tr:nth-child(even){
 main > p {
     text-align: center;
     margin-bottom: 20px;
+    background-color: #cff222;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
